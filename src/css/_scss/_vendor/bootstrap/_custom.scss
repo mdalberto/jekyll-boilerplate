@@ -1,0 +1,19 @@
+// Bootstrap overrides
+//
+// Copy variables from `_variables.scss` to this file to override default values
+// without modifying source files.
+
+// Options
+
+$enable-rounded:           false !default;
+
+
+// Grid containers
+
+$container-max-widths: (
+  sm: 95%,
+  md: 95%,
+  lg: 960px,
+  xl: 1140px
+) !default;
+@include _assert-ascending($container-max-widths, "$container-max-widths");

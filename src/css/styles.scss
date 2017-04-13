@@ -1,13 +1,12 @@
-// Front matter dashes are needed!
----
----
+--- 
+--- 
 
 // This is the main scss index file which will 
 // pull everything together from _scss folder.
+@import "_vendor/bootstrap/bootstrap.scss";
 
-@import "_vendor/bootstrap";
+.bd-example-row .row>.col, .bd-example-row .row>[class^=col-] {
 
-.red-is{
-
-    color:black;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid rgba(86,61,124,.2);
 }
