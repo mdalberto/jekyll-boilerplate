@@ -1,2 +1,2 @@
-# jekyll-boilerplate - Bootstrap 3, fontawesome and scss
+# jekyll-boilerplate - Bootstrap 4 alpha, fontawesome and scss
 
